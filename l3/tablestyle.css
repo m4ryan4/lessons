@@ -1,0 +1,24 @@
+body{
+    background: rgb(168,150,88);
+    background: linear-gradient(90deg, rgba(168,150,88,1) 0%, rgba(166,129,36,1) 40%, rgba(89,71,78,1) 68%, rgba(90,27,102,1) 100%);
+}
+h1{
+    text-align: center;
+}
+th{
+   font-size: 20px; 
+}
+table{
+    text-align: center;
+}
+td{
+    height: 90px;
+    width: 300px;
+    border: 2px solid rgb(28, 53, 34);
+}
+td:hover{
+    color: rgb(255, 255, 255);
+    border: 5px solid rgb(255, 255, 255);
+    background: rgb(38,11,43);
+    background: linear-gradient(90deg, rgba(38,11,43,1) 0%, rgba(139,110,122,1) 40%, rgba(219,171,48,1) 68%, rgba(237,211,123,1) 100%);
+}

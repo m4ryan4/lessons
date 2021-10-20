@@ -1,0 +1,91 @@
+.a1, .a2, .a3{
+    margin: 15px;
+}
+.red{
+    height: 100px;
+    width: 450px;
+    background-color: rgb(180, 108, 108);
+}
+.green{
+    height: 100px;
+    width: 450px;
+    background-color: rgb(99, 172, 117);
+}
+.blue{
+    height: 100px;
+    width: 450px;
+    background-color: rgb(100, 116, 187);
+}
+.block1{
+    height: 100px;
+    width: 450px;
+}
+.block2{
+    height: 100px;
+    width: 450px;
+}
+.block3{
+    height: 100px;
+    width: 450px;
+}
+.red2{
+    float: left;
+    height: 100px;
+    width: 150px;
+    background-color: rgb(180, 108, 108);
+}
+.green2{
+    float: left;
+    height: 100px;
+    width: 150px;
+    background-color: rgb(99, 172, 117);
+}
+.blue2{
+    float: left;
+    height: 100px;
+    width: 150px;
+    background-color: rgb(100, 116, 187);
+}
+.yellow2{
+    height: 200px;
+    width: 450px;
+    background-color: rgb(230, 224, 150);
+}
+.grey2{
+    float: left;
+    height: 100px;
+    width: 225px;
+    background-color: rgb(163, 163, 163);
+}
+.black2{
+    float: left;
+    height: 100px;
+    width: 225px;
+    background-color: rgb(37, 54, 42);
+}
+.header{
+    height: 180px;
+    width: 540px;
+    background-color: rgb(229, 241, 161);
+}
+.red3{
+    float: left;
+    margin: 15px;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(180, 108, 108);
+}
+.green3{
+    float: left;
+    margin: 15px;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(99, 172, 117);
+}
+.blue3{
+    float: left;
+    margin: 15px;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(100, 116, 187);
+}

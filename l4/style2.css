@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(238, 197, 144);
+   
+}
+h1{
+    font-size: 28px;
+    text-align: center;
+}
+p{
+    font-size: 16px;
+    text-align: center;
+}
+img{
+    height: 225px;
+    width: 225px;
+    border-radius: 50%;
+}
+a{
+    font-size: 20px;
+}
+span{
+    color: rgb(85, 61, 30);
+}
+td{
+    
+}
+td.main-left{
+    width: 250px;
+    height: 500px;
+    margin: 0 15px;
+    background-color:rgb(233, 181, 114);
+    box-shadow: 2px 2px 8px 8px rgb(122, 78, 26);
+    
+}
+td.main-right{
+    width: 1250px;
+    height: 500px;
+    margin: 15px 0;
+    background-color:rgb(233, 181, 114);
+    box-shadow: 2px 2px 8px 8px rgb(122, 78, 26);
+}
