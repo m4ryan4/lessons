@@ -1,0 +1,46 @@
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+h3{
+    font-size: 25px;
+    margin-left: 50px;
+    padding-top: 30px;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+.block1{
+    background-color: rgb(255, 255, 255);
+    width: 1500px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 8px 5px rgb(180, 180, 180);
+    margin-left: 170px;
+}
+.block1:hover{
+    background-color: rgb(204, 194, 135);
+    width: 1500px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 8px 5px rgb(122, 78, 26);
+}
+.block12{
+    display: flex;
+}
+.a1, .a2, .a3, .a4, .a5{
+    background-color: rgb(235, 229, 197);
+    width: 500px;
+    height: 125px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 4px rgb(122, 78, 26);
+    margin: 30px;
+}
+p{
+    text-align: center;
+}
