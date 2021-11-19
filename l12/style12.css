@@ -1,0 +1,92 @@
+body{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,222,1) 52%, rgba(254,255,126,1) 100%);
+}
+.block1{
+    width: 900px;
+    height: 900px;
+    margin-left: 500px;
+}
+.block3{
+    width: auto;
+    height: auto;
+    background: rgb(255,241,222);
+    background: radial-gradient(circle, rgba(255,241,222,1) 0%, rgba(255,228,192,1) 52%, rgba(255,220,167,1) 100%);
+    color: rgb(144, 135, 108);
+    border-radius: 20px 1px 1px 20px;
+}
+.block4{
+    width: auto;
+    height: auto;
+    background: rgb(255,149,0);
+    background: radial-gradient(circle, rgba(255,149,0,1) 0%, rgba(210,120,0,1) 52%, rgba(156,62,0,1) 100%);
+    color: rgb(255, 255, 255);
+    border-radius: 1px 20px 20px 1px;
+}
+.cont1{
+    width: 100px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont2, .cont3, .cont4{
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(144, 135, 108);
+    border-radius: 50px;
+}
+.cont2:hover, .cont3:hover, .cont4:hover{
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(224, 152, 18);
+    border-radius: 50px;
+    background-color: rgb(224, 152, 18);
+    box-shadow: inset 0px 0px 10px 5px rgb(71, 48, 6);
+    color: white;
+}
+.cont5{
+    width: 150px;
+    height: 50px;
+    border: 2px solid rgb(224, 152, 18);
+    border-radius: 50px;
+    background-color: rgb(224, 152, 18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 125px;
+}
+.cont5:hover{
+    width: 150px;
+    height: 50px;
+    border: 2px solid rgb(224, 152, 18);
+    border-radius: 50px;
+    background-color: rgb(224, 152, 18);
+    box-shadow: 0px 0px 10px 5px rgb(136, 95, 18);
+}
+h1{
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+}
+h2{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 12px;
+}
+h3{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.cont12{
+    display: flex;
+    justify-content: space-around;
+}
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

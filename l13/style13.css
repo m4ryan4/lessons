@@ -1,0 +1,37 @@
+body{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,222,1) 52%, rgba(254,255,126,1) 100%);
+}
+.cont1, .cont2, .cont3{
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+h1{
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: rgb(39, 37, 4)
+}
+label{
+    margin-right: 25px
+}
+input{
+    margin-right: 25px
+}
+.link:link{
+    color: rgb(163, 52, 52)
+}
+.link:visited{
+    color: rgb(33, 117, 33);
+}
+.link:hover{
+    color: rgb(43, 35, 153);
+}
+.link:active{
+    color: rgb(213, 43, 219);
+}
+.link:focus{
+    color: rgb(219, 172, 43);
+}
+li{
+    list-style-type: none;
+}

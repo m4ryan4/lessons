@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+}
+h2{
+    text-align: center;
+    font-size: 15px;
+}
+.block1, .block3, .block4, .block5, .block6, .block7, .block8, .block9, .block10{
+    width: 200px;
+    height: 100px;
+    box-shadow: 0px 0px 0px 2px rgb(105, 105, 105);
+    background-color: rgb(182, 182, 182);
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block2{
+    width: 200px;
+    height: 100px;
+    box-shadow: 0px 0px 0px 2px rgb(105, 105, 105);
+    background-color: rgb(182, 182, 182);
+    position: relative;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block11{
+    margin-left: 500px;
+    width: 200px;
+    height: 100px;
+    box-shadow: 0px 0px 0px 2px rgb(105, 105, 105);
+    background-color: rgb(182, 182, 182);
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block12{
+    margin-left: 300px;
+    width: 200px;
+    height: 100px;
+    box-shadow: 0px 0px 0px 2px rgb(105, 105, 105);
+    background-color: rgb(182, 182, 182);
+    position: fixed;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.japan1{
+    width: 450px;
+    height: 250px;
+    box-shadow: 0px 0px 3px 3px black;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+}
+.japan2{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(143, 21, 21);
+    border-radius: 100%;
+}

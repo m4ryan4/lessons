@@ -1,0 +1,83 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: left;
+}
+.font_icons{
+    width: 50%;
+    margin: 0 0 0 30px;
+    padding: 0 0 0 30px;
+    background-color: rgb(109, 80, 26);
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    transition: width 2s;
+}
+.font_icons:hover{
+    width: 100%;
+}
+h4{
+    text-align: left;
+}
+.cont2{
+    background-color: rgb(109, 80, 26);
+    width: 600px;
+    height: 200px;
+}
+.white1{
+    margin: 50px;
+    float: left;
+    background-color: oldlace;
+    width: 100px;
+    height: 100px;
+    animation: skew 3s infinite;
+    transform: skew(20deg);
+    animation-direction: alternate;
+}
+.white2{
+    margin: 50px;
+    float: left;
+    background-color: oldlace;
+    width: 100px;
+    height: 100px;
+    animation: skew 3s infinite;
+    transform: skew(20deg);
+    animation-direction: alternate;
+}
+.white3{
+    margin: 50px;
+    float: left;
+    background-color: oldlace;
+    width: 100px;
+    height: 100px;
+    animation: skew 3s infinite;
+    transform: skew(20deg);
+    animation-direction: alternate;
+}
+.cont3{
+    width: 1500px;
+    height: auto;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.cont4{
+    width: 1500px;
+    height: auto;
+}
+object{
+    width: 500px;
+    height: auto;
+    margin: 50px;
+}
+.cont5{
+    width: 600px;
+    height: 1300px;
+}
+table{
+    width: 1300px;
+    height: auto;
+}
