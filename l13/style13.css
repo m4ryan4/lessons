@@ -25,6 +25,7 @@ input{
 }
 .link:hover{
     color: rgb(43, 35, 153);
+    font-size: 15px;
 }
 .link:active{
     color: rgb(213, 43, 219);

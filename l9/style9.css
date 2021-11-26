@@ -126,3 +126,53 @@ h2{
       background-image: url(Ellipse31X.png);
       display: flex;
 }
+@media (min-width:480px) and (max-width:768px) {
+      .cont11{
+            width: 100%;
+            background-color: #C0301C;
+            background-image: none;
+      }
+      h2{
+            margin-left: 25px;
+            margin-right: 25px;
+            font-size: 40px;
+      }
+      h3{
+            font-size: 50px;
+            margin: none;
+      }
+      h5{
+            margin-left: 25px;
+            margin-right: 25px;
+            font-size: 50px;
+      }
+      h6{
+            font-size: 17px;
+      }
+      .cont22{
+            margin-top: 450px;
+      }
+      .cont33{
+            margin-top: 425px;
+      }
+      .cont10{
+            display: inline;
+            margin-left: 0px;
+            margin-right: 0px;
+      }
+      .cont101, .cont102, .cont103, .cont104, .cont105, .cont106{
+            font-size: 20px;
+      }
+      .cont1011{
+            margin-left: 160px;
+      }
+      .cont41, .cont42, .cont43, .cont44, .cont45, .cont46, .cont17{
+            font-size: 14px;
+      }
+      .cont4{
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            margin-bottom: 150px
+      }
+}

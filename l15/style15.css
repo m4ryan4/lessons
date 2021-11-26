@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.container{
+    max-width: 1170px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+.nav_links{
+    float: left;
+    width: 60%;
+    margin: 20px;
+    margin-left: 250px;
+}
+.nav_links li{
+    list-style: none;
+    float: left;
+}
+.nav_links li a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 15px 30px;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+nav{
+    background: #333;
+    width: 100%;
+    height: 100px;
+}
+nav li.has_child{
+    position: relative;
+}
+nav .dropdown{
+    position: absolute;
+    background: #333;
+    padding: 0px;
+    border-top: 1px solid #676565;
+    top: 120%;
+    visibility: hidden;
+    opacity: 0;
+    /*display: none;*//*adding transition effect*/
+    transition: opacity ease 0.5s, top ease 0.5s;
+}
+nav .dropdown li{
+    float: none;
+    border-bottom: 1px solid #676565;
+}
+nav .dropdown > li:last-child{
+    border-bottom: none;
+}
+nav .dropdown li a{
+    font-size: 14px;
+    white-space: nowrap;
+    padding-left: 10px 20px;
+}
+.dropdown.align_left_to_right{
+    left: 100%;
+    top: -10px;
+}
+nav li.has_child:hover> .dropdown{
+    /*display: block;*/
+    visibility: visible;
+    opacity: 1;
+    top: 100%;
+}
+nav li.has_child:hover> .dropdown.align_left_to_right{
+    top: 0px;
+}
+
+/*add some animation or transition effect*/
